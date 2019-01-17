@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 const Schema = mongoose.Schema;
+
 const InvoiceSchema = new Schema({
   item: {
     type: String,
@@ -18,9 +19,6 @@ const InvoiceSchema = new Schema({
     required: true
   },
   rate: {
-    type: Number
-  },
-  tax: {
     type: Number
   }
 });

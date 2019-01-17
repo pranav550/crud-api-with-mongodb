@@ -1,8 +1,6 @@
-import invoicesController from "./controllers/invoicesController";
 import express from "express";
-
+import invoiceController from "./controllers/invoiceController";
 export const router = express.Router();
 
-router.get("/invoices", invoicesController.findAll);
-
-router.post("/invoices", invoicesController.create);
+router.get("/invoices", invoiceController.findAll);
+router.post("/invoices", invoiceController.create);
