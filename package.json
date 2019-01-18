@@ -17,12 +17,8 @@
   },
   "homepage": "https://github.com/pranav550/node-starter#readme",
   "dependencies": {
-    "babel-cli": "^6.26.0",
     "express": "^4.16.4",
-    "http-status-codes": "^1.3.0",
-    "joi": "^14.3.1",
     "mongoose": "^5.4.4",
-    "morgan": "^1.9.1",
     "nodemon": "^1.18.9"
   },
   "devDependencies": {
